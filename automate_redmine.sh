@@ -1,7 +1,5 @@
 #!/bin/bash
 
-printf "1253528Asa!@" | sudo su
-
 wget https://bitnami.com/redirect/to/818538/bitnami-redmine-4.0.5-6-linux-x64-installer.run
 
 yum -y install wget perl-Data-Dumper
