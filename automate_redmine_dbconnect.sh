@@ -47,4 +47,4 @@ test:
 #  host: localhost
 #  username: jenkins
 #  password: jenkins
-' > database.yml
+' > /opt/redmine-4.0.5-6/apps/redmine/htdocs/config/database.yml
