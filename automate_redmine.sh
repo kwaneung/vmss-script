@@ -13,7 +13,7 @@ cp /opt/redmine-4.0.5-6/ctlscript.sh /etc/init.d/bitnami-redmine
 perl -p -i -e '$.==2 and print "# chkconfig: 2345 80 30\n"' /etc/init.d/bitnami-redmine
 perl -p -i -e '$.==3 and print "# description: BitNami Service\n"' /etc/init.d/bitnami-redmine
 perl -p -i -e '$.==4 and print "# processname: bitnami-redmine\n"' /etc/init.d/bitnami-redmine
-perl -p -i -e '$.==2 and print "# Source funtion library\n"' /etc/init.d/bitnami-redmine
-perl -p -i -e '$.==2 and print "./etc/rc.d/init.d/functions\n"' /etc/init.d/bitnami-redmine
+perl -p -i -e '$.==5 and print "# Source funtion library\n"' /etc/init.d/bitnami-redmine
+perl -p -i -e '$.==6 and print "./etc/rc.d/init.d/functions\n"' /etc/init.d/bitnami-redmine
 
 chkconfig --add bitnami-redmine
