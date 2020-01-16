@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'W3Ucr#f8coyi' | sudo -S su
+echo 'Wawip4@cacOB' | sudo -S su
 sudo su
 
 wget https://bitnami.com/redirect/to/818538/bitnami-redmine-4.0.5-6-linux-x64-installer.run
